@@ -1,0 +1,92 @@
+.header-section{
+    height: 150px;
+    width: 0 auto;
+    background-image: url(./img/header-img.jpg);
+    background-size:cover;
+    text-decoration: none;
+}
+.header-pages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type:none;
+}
+.header-page-main{
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Varela Round', sans-serif;
+}
+.header-page{
+    list-style-type:none;
+}
+.promo{
+    display: flex;
+    width: 0 auto;
+    height: 740px;
+    background-image: url(./img/promo.jpg);
+    background-size: cover;
+}
+.promo-block{
+    justify-content: center;
+    align-items:center;
+}
+.btn-promo{
+    justify-content: space-around;
+    align-items:center;
+    width: 260px;
+    height: 80px;
+    background-color: #0B0E66;
+    color: #26C7EA;
+    border-color: #26C7EA;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: none;
+}
+.trailer{
+    display: flex;
+    width: 0 auto;
+    height: 741px;
+    background-image: url(./img/trailer.jpg);
+    background-size: cover;
+}
+.btn-trailer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 260px;
+    height: 80px;
+    background-color: #0B0E66;
+    color: #26C7EA;
+    border-color: #26C7EA;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: none;
+}
+.learning-language-navi{
+    width: auto;
+    height: 704px;
+    background-image: url(./img/language-navi.jpg);
+    background-size: cover;
+
+}
+.learning-language-navi-block{
+
+}
+.language-ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.language-li{
+    width: 320px;
+    height: 240px;
+    text-decoration: none;
+    list-style: none;
+    background-color: #ffffffb7;
+}
+.footer{
+    background-image: url(./img/footer-img.jpg);
+    width: auto;
+    height: 223px;
+    background-size:cover;
+}
