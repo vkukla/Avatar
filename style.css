@@ -1,22 +1,22 @@
-.header-section{
+.header-container{
     height: 150px;
     width: 0 auto;
     background-image: url(./img/header-img.jpg);
     background-size:cover;
     text-decoration: none;
 }
-.header-pages{
+.header-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style-type:none;
 }
-.header-page-main{
+.header-item{
     font-family: 'Cedarville Cursive', cursive;
 font-family: 'Inter', sans-serif;
 font-family: 'Varela Round', sans-serif;
 }
-.header-page{
+.header-item{
     list-style-type:none;
 }
 .promo{
