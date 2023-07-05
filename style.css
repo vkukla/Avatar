@@ -1,9 +1,10 @@
-.header-container{
+.container{
     height: 150px;
     width: 0 auto;
     background-image: url(./img/header-img.jpg);
     background-size:cover;
     text-decoration: none;
+    border-bottom: 4px solid white;
 }
 .header-list{
     display: flex;
@@ -19,6 +20,55 @@ font-family: 'Varela Round', sans-serif;
 .header-item{
     list-style-type:none;
 }
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 36px;
+    height: 20px;
+    border-color: white;
+    border: 2px solid white;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 20px;
+  }
+  
+  // centering
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 .promo{
     display: flex;
     width: 0 auto;
@@ -44,6 +94,8 @@ font-family: 'Varela Round', sans-serif;
 }
 .trailer{
     display: flex;
+    justify-content: center;
+    align-items:center;
     width: 0 auto;
     height: 741px;
     background-image: url(./img/trailer.jpg);
@@ -61,6 +113,11 @@ font-family: 'Varela Round', sans-serif;
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     box-shadow: none;
+}
+.btn-div-trailer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 .learning-language-navi{
     width: auto;
@@ -89,4 +146,14 @@ font-family: 'Varela Round', sans-serif;
     width: auto;
     height: 223px;
     background-size:cover;
+}
+.phrase-about-people{
+    width: 0 auto;
+    height: 350px;
+    background-color:white;
+}
+.phrase-about-people-div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
