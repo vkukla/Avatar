@@ -80,9 +80,7 @@ header{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-.lang-switcher-block{
-
+    cursor: pointer;
 }
 
 .lang-switcher-block ul{
@@ -194,6 +192,7 @@ input[type=checkbox]{
     font-weight: 400;
     line-height: normal;
     margin-top:22px;
+    cursor: pointer;
 }
 .trailer{
     display: flex;
@@ -216,6 +215,13 @@ input[type=checkbox]{
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     box-shadow: none;
+    color: #26C7EA;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
 }
 .btn-div-trailer{
     display: flex;
@@ -244,19 +250,84 @@ input[type=checkbox]{
     list-style: none;
     background-color: #ffffffb7;
 }
-.footer{
+
+.testimonial-block{
+    height: 350px;
+    background-color:white;
+}
+.author-testimonial{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.testimonial-text{
+    text-align: center;
+    color: #0A3853;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimanial-author{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer{
     background-image: url(./img/footer-img.jpg);
     width: auto;
     height: 223px;
     background-size:cover;
 }
-.phrase-about-people{
-    width: 0 auto;
-    height: 350px;
-    background-color:white;
-}
-.phrase-about-people-div{
+
+.footer-block{
+    width: auto;
+    height: 223px;
+    background-size:cover;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.footer-logo-divider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 265px;
+    border-right: 2px solid white;
+    height: 153px;
+    padding-right: 80px;
+}
+
+.footer-contacts{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-contact-item{
+    margin-left: 80px;
+}
+
+.footer-contact-item p, .footer-contact-item a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.footer-contact-item img{
+    margin: 0px 5px 5px 5px;
+}
+
