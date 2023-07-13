@@ -6,12 +6,8 @@ header{
     border-bottom: 4px solid white;
 }
 .bg-color{
-    background-color: rgba(248, 247, 216, 0.3);
-    position: absolute;
-    top: 0;
-    left: 0;
+    background-color: rgba(43, 74, 97, 0.87);
     width: 100%;
-    height: 100%;
 }
 .container{
     width: 1140px;
@@ -29,7 +25,8 @@ header{
     justify-content: space-between;
 }
 .header-main-menu{
-    margin-left: 168px;
+    margin-left: 128px;
+    width: 325px;
 }
 .header-list{
     display: flex;
@@ -45,13 +42,22 @@ header{
     text-decoration: none;
 }
 .header-item-link{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
     text-decoration: none;
-    color:#ffffff;
 }
-.header-item-link-main{
+.header-item-link-active{
     text-decoration: none;
     color: #94CFFF;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .header-login{
     display: flex;
@@ -67,7 +73,38 @@ header{
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     box-shadow: none;
+    color: #26C6EA;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
+.lang-switcher-block{
+
+}
+
+.lang-switcher-block ul{
+    list-style : none;
+    display: flex;
+    align-items: center;
+}
+
+.switcher-el{
+    padding: 0 10px 0 10px;
+}
+
+.lang-switcher-block p{
+   color: #FFF;
+   text-align: center;
+   font-family: Hammersmith One;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
 input[type=checkbox]{
     height: 0;
     width: 0;
@@ -125,7 +162,19 @@ input[type=checkbox]{
 .promo-block{
     justify-content: center;
     align-items:center;
+    width: 416px;
+    margin-top: 180px;
 }
+
+.promo-block p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 .btn-promo{
     justify-content: space-around;
     align-items:center;
@@ -137,6 +186,14 @@ input[type=checkbox]{
     border-top-left-radius: 45px;
     border-bottom-right-radius: 45px;
     box-shadow: none;
+    color: #26C7EA;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top:22px;
 }
 .trailer{
     display: flex;

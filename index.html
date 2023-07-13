@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@600&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@600&family=Varela+Round&display=swap"
+          rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
@@ -18,117 +19,133 @@
 </head>
 
 <body>
-    <header>
-            <div class="container">
-                <div class="header-block">
-                    <div class="header-logo-nav">
-                        <a href="#"><img src="./icons/avatar-logo.svg" alt="avatar-logo"></a>
-                        <nav class="header-main-menu">
-                            <ul class="header-list">
-                                <li class="header-item"><a class="header-item-link-main" href="./index.html">Головна</a></li>
-                                <li class="header-item"><a class="header-item-link" href="#">Про нас</a></li>
-                                <li class="header-item"><a class="header-item-link" href="#">Контакти</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="header-login">
-                        <button class="header-btn">Увійти</button>
-                        <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
-                    </div>
+<header>
+    <div class="bg-color">
+        <div class="container">
+            <div class="header-block">
+                <div class="header-logo-nav">
+                    <a href="#"><img src="./icons/avatar-logo.svg" alt="avatar-logo"></a>
+                    <nav class="header-main-menu">
+                        <ul class="header-list">
+                            <li class="header-item"><a class="header-item-link-active" href="./index.html">Головна</a>
+                            </li>
+                            <li class="header-item"><a class="header-item-link" href="#">Про нас</a></li>
+                            <li class="header-item"><a class="header-item-link" href="#">Контакти</a></li>
+                        </ul>
+                    </nav>
                 </div>
-            </div>
-    </header>
-    <main>
+                <div class="header-login">
+                    <button class="header-btn">Увійти</button>
+                    <div class="lang-switcher-block">
+                        <ul>
+                            <li>
+                                <p>ENG</p>
+                            </li>
+                            <li class="switcher-el">
+                                <input type="checkbox" id="switch" hidden/><label for="switch">Toggle</label>
+                            </li>
+                            <li>
+                                <p>UA</p>
+                            </li>
+                        </ul>
+                    </div>
 
-        <section class="promo">
-            <div class="container">
-                <div class="promo-block">
-                    <p class="promo-p">Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä
-                        hapxì. Säwem nìayoeng!</p>
-                    <img src="./icons/promo-rectangle.svg" alt="arrow">
-                    <p class="promo-p-ua">Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
-                        залишається, щоб стати частиною Народу. Борись разом з нами!</p>
-                    <button class="btn-promo">Приєднатися до клану</button>
                 </div>
             </div>
-        </section>
-        <section class="phrase-about-people">
-            <div class="phrase-about-people-div">
-                <p>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>
-                    ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</p>
-                <p>Джейк Саллі</p>
-                <img src="./icons/phrase.svg" alt="phrase">
+        </div>
+    </div>
+</header>
+<main>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo-block">
+                <p>Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
+                    залишається, щоб стати частиною Народу. Борись разом з нами!</p>
+                <img src="./icons/promo-rectangle.svg" alt="arrow">
+                <p>Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä
+                    hapxì. Säwem nìayoeng!</p>
+                <button class="btn-promo">Приєднатися до клану</button>
             </div>
-        </section>
-        <section class="trailer">
-            <div class="btn-div-trailer">
-                <button class="btn-trailer">Дивитись трейлер</button>
-            </div>
-        </section>
-        <section class="phrase-about-energi">
-            <div>
-                <p>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br>
-                    ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
-                <p>Джейк Саллі</p>
-                <img src="./icons/phrase.svg" alt="phrase">
-            </div>
-        </section>
-        <section class="learning-language-navi">
-            <div class="learning-language-navi-block">
-                <ul class="language-ul">
-                    <li class="language-li">
-                        <p>Привіт</p>
-                        <img src="./icons/arrow-left.svg" alt="">
-                        <p>Kaltxì</p>
-                    </li>
-                    <li class="language-li">
-                        <p>Як справи?</p>
-                        <img src="./icons/arrow-center.svg" alt="">
-                        <p>Ngaru lu fpom srak?</p>
-                    </li>
-                    <li class="language-li">
-                        <p>Все добре</p>
-                        <img src="./icons/arrow-right.svg" alt="">
-                        <p>Lu fpom</p>
-                    </li>
-                    <li class="language-li">
-                        <p>Дякую</p>
-                        <img src="./icons/arrow-left.svg" alt="">
-                        <p>Irayo si</p>
-                    </li>
-                    <li class="language-li">
-                        <p>Я бачу тебе</p>
-                        <img src="./icons/arrow-center.svg" alt="">
-                        <p>Oel ngati kameie</p>
-                    </li>
-                    <li class="language-li">
-                        <p>Слідуй за мною!</p>
-                        <img src="./icons/arrow-right.svg" alt="">
-                        <p>Nong oet!</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="phrase-about-life">
-            <div>
-                <p>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br>
-                    ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
-                <p>Нейтірі</p>
-                <img src="./icons/phrase.svg" alt="phrase">
-            </div>
-        </section>
-    </main>
-    <footer>
-        <section class="footer">
-            <div class="footer-block">
-                <img src="./icons/avatar-logo.svg" alt="avatar-logo">
-                <p>Q&A E-mail</p>
-                <p>Cooperation E-mail</p>
-                <a href="mailto:avatartwowqa@gmail.com">avatartwowqa@gmail.com</a>
-                <a href="mailto:avatartwowqa@gmail.com">avatartwowcoop@gmail.com</a>
-            </div>
-        </section>
-    </footer>
+        </div>
+    </section>
+    <section class="phrase-about-people">
+        <div class="phrase-about-people-div">
+            <p>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>
+                ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</p>
+            <p>Джейк Саллі</p>
+            <img src="./icons/phrase.svg" alt="phrase">
+        </div>
+    </section>
+    <section class="trailer">
+        <div class="btn-div-trailer">
+            <button class="btn-trailer">Дивитись трейлер</button>
+        </div>
+    </section>
+    <section class="phrase-about-energi">
+        <div>
+            <p>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br>
+                ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
+            <p>Джейк Саллі</p>
+            <img src="./icons/phrase.svg" alt="phrase">
+        </div>
+    </section>
+    <section class="learning-language-navi">
+        <div class="learning-language-navi-block">
+            <ul class="language-ul">
+                <li class="language-li">
+                    <p>Привіт</p>
+                    <img src="./icons/arrow-left.svg" alt="">
+                    <p>Kaltxì</p>
+                </li>
+                <li class="language-li">
+                    <p>Як справи?</p>
+                    <img src="./icons/arrow-center.svg" alt="">
+                    <p>Ngaru lu fpom srak?</p>
+                </li>
+                <li class="language-li">
+                    <p>Все добре</p>
+                    <img src="./icons/arrow-right.svg" alt="">
+                    <p>Lu fpom</p>
+                </li>
+                <li class="language-li">
+                    <p>Дякую</p>
+                    <img src="./icons/arrow-left.svg" alt="">
+                    <p>Irayo si</p>
+                </li>
+                <li class="language-li">
+                    <p>Я бачу тебе</p>
+                    <img src="./icons/arrow-center.svg" alt="">
+                    <p>Oel ngati kameie</p>
+                </li>
+                <li class="language-li">
+                    <p>Слідуй за мною!</p>
+                    <img src="./icons/arrow-right.svg" alt="">
+                    <p>Nong oet!</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="phrase-about-life">
+        <div>
+            <p>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br>
+                ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
+            <p>Нейтірі</p>
+            <img src="./icons/phrase.svg" alt="phrase">
+        </div>
+    </section>
+</main>
+<footer>
+    <section class="footer">
+        <div class="footer-block">
+            <img src="./icons/avatar-logo.svg" alt="avatar-logo">
+            <p>Q&A E-mail</p>
+            <p>Cooperation E-mail</p>
+            <a href="mailto:avatartwowqa@gmail.com">avatartwowqa@gmail.com</a>
+            <a href="mailto:avatartwowqa@gmail.com">avatartwowcoop@gmail.com</a>
+        </div>
+    </section>
+</footer>
 </body>
 
 </html>
