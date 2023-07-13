@@ -1,40 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@600&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@600&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Avatar</title>
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <a href="#"><img src="./icons/avatar-logo.svg" alt="avatar-logo"></a>
-            <ul class="header-list">
-                <li class="header-item">Головна</li>
-                <li class="header-item">Про нас</li>
-                <li class="header-item">Контакти</li>
-                <li  class="header-item"><input type="checkbox" id="switch" /><label for="switch">Toggle</label></li>
-            </ul>
-        </div>
+            <div class="container">
+                <div class="header-block">
+                    <div class="header-logo-nav">
+                        <a href="#"><img src="./icons/avatar-logo.svg" alt="avatar-logo"></a>
+                        <nav class="header-main-menu">
+                            <ul class="header-list">
+                                <li class="header-item"><a class="header-item-link-main" href="./index.html">Головна</a></li>
+                                <li class="header-item"><a class="header-item-link" href="#">Про нас</a></li>
+                                <li class="header-item"><a class="header-item-link" href="#">Контакти</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header-login">
+                        <button class="header-btn">Увійти</button>
+                        <input type="checkbox" id="switch" /><label for="switch">Toggle</label>
+                    </div>
+                </div>
+            </div>
     </header>
     <main>
-        
+
         <section class="promo">
-            <div class="promo-block">
-                <p class="promo-p">Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä hapxì. Säwem nìayoeng!</p>
-                <img src="./icons/promo-rectangle.svg" alt="arrow">
-                <p class="promo-p-ua">Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло залишається, щоб стати частиною Народу. Борись разом з нами!</p>
-                <button class="btn-promo">Приєднатися до клану</button>
+            <div class="container">
+                <div class="promo-block">
+                    <p class="promo-p">Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä
+                        hapxì. Säwem nìayoeng!</p>
+                    <img src="./icons/promo-rectangle.svg" alt="arrow">
+                    <p class="promo-p-ua">Хоробрий воїне, звертаюсь до тебе! Твій дух йде з Ейвою, твоє тіло
+                        залишається, щоб стати частиною Народу. Борись разом з нами!</p>
+                    <button class="btn-promo">Приєднатися до клану</button>
+                </div>
             </div>
         </section>
         <section class="phrase-about-people">
             <div class="phrase-about-people-div">
                 <p>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>
-                ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</p>
+                    ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</p>
                 <p>Джейк Саллі</p>
                 <img src="./icons/phrase.svg" alt="phrase">
             </div>
@@ -47,7 +68,7 @@
         <section class="phrase-about-energi">
             <div>
                 <p>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br>
-                ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
+                    ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
                 <p>Джейк Саллі</p>
                 <img src="./icons/phrase.svg" alt="phrase">
             </div>
@@ -91,7 +112,7 @@
         <section class="phrase-about-life">
             <div>
                 <p>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br>
-                ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
+                    ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
                 <p>Нейтірі</p>
                 <img src="./icons/phrase.svg" alt="phrase">
             </div>
@@ -109,4 +130,5 @@
         </section>
     </footer>
 </body>
+
 </html>
